@@ -1,0 +1,6 @@
+*.log
+*.json
+run.*
+world/
+logs/
+libraries/
