@@ -8,3 +8,5 @@ crash*
 local/
 tacz/
 trees/
+.sable/
+.mixin_out/
