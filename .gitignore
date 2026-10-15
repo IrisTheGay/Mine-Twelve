@@ -4,3 +4,7 @@ run.*
 world/
 logs/
 libraries/
+crash*
+local/
+tacz/
+trees/
