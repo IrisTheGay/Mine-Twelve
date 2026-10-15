@@ -9,6 +9,7 @@ Do: Make server icon.
 All done for now.  
   
 ## Add:  
-- [Create Aeronautics lift patch](https://www.google.com/goto?url=CAESYAHrOzAVBhrDxRsZcvXjFzeBnagFvZ3BkdmOQD8DpU5vkQVKzMpYShqO_cjY89r6UZ5hX-6pBgNnkTZn5ZcfwEeI1EdWlv7nqwksiDtJcR6eo9Aq_o4fuFd1RuV0UhW7jA)  
+- [Create Aeronautics lift patch](https://modrinth.com/mod/create-aeronautics-lift-patch)  
+- [Shrink](https://modrinth.com/mod/shrink)  
 ~~All done for now.~~  
 PR or issue any mods to add.  
