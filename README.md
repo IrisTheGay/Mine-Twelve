@@ -2,15 +2,19 @@
   
 ## Setup:  
 Do: Mods, Config, KubeJS if relevent.  
-Do: Attempt to get better hardware to host on.  
-Do: Make server icon.  
+Do: Attempt to get better hardware to host on.   
   
 ## Test:  
 All done for now.  
   
 ## Add:  
-- [Create Aeronautics lift patch](https://modrinth.com/mod/create-aeronautics-lift-patch)  
-- [Shrink](https://modrinth.com/mod/shrink)  
-- [Immersive Paintings](https://modrinth.com/mod/immersive-paintings)  
+- Voxy  
+- Sodium  
+- Iris  
+- Iris Flywheel Compat  
+- Northstar Sable Iris Horizons Bridge  
+- Shaders  
+- Euphoria Patches  
+- Any other Client-Side mods  
 ~~All done for now.~~  
 PR or issue any mods to add.  
