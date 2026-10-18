@@ -10,3 +10,5 @@ tacz/
 trees/
 .sable/
 .mixin_out/
+.lss/
+.pg_naive/
