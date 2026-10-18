@@ -9,6 +9,6 @@ local/
 tacz/
 trees/
 .sable/
-.mixin_out/
+.mixin*/
 .lss/
 .pg_naive/
