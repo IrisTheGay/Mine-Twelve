@@ -194,11 +194,11 @@
 		#.
 		#Configure how Spawner blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		movableSpawners = "NO_PICKUP"
+		movableSpawners = "MOVABLE"
 		#.
 		#Configure how Budding Amethyst can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		amethystMovement = "NO_PICKUP"
+		amethystMovement = "MOVABLE"
 		#.
 		#Configure how Obsidian blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
@@ -218,7 +218,7 @@
 		harvesterReplants = true
 		#.
 		#Whether minecart contraptions can be placed into container items.
-		minecartContraptionInContainers = false
+		minecartContraptionInContainers = true
 		#.
 		#Whether stabilised bearings create a separated entity even on non-rotating contraptions.
 		#[Technical]
@@ -407,12 +407,12 @@
 	#Maximum distance in blocks a Mechanical Arm can reach across.
 	# Default: 5
 	# Range: > 1
-	mechanicalArmRange = 5
+	mechanicalArmRange = 8
 	#.
 	#Maximum distance in blocks a Package Port can be placed at from its target.
 	# Default: 5
 	# Range: > 1
-	packagePortRange = 5
+	packagePortRange = 15
 	#.
 	#Maximum possible range in blocks of redstone link connections.
 	# Default: 256
@@ -432,7 +432,7 @@
 	#The amount of packages a chain conveyor can carry at a time.
 	# Default: 20
 	# Range: > 1
-	chainConveyorCapacity = 20
+	chainConveyorCapacity = 40
 	#.
 	#The amount of ticks a brass tunnel waits between distributions.
 	# Default: 10
@@ -567,13 +567,13 @@
 		#The top speed of any assembled Train.
 		# Default: 28.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTopSpeed = 28.0
+		trainTopSpeed = 40.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of Trains during a turn.
 		# Default: 14.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTurningTopSpeed = 14.0
+		trainTurningTopSpeed = 24.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of any assembled Train.
@@ -589,13 +589,13 @@
 		#The top speed of powered Trains.
 		# Default: 40.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTopSpeed = 40.0
+		poweredTrainTopSpeed = 42.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of powered Trains during a turn.
 		# Default: 20.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTurningTopSpeed = 20.0
+		poweredTrainTurningTopSpeed = 26.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of powered Trains.
