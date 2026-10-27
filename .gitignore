@@ -12,6 +12,5 @@ trees/
 .mixin*/
 .lss/
 .pg_naive/
-kubejs/
-!kubejs/*_scripts/
-!kubejs/assets/
+kubejs/config/
+kubejs/data/
