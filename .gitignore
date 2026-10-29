@@ -14,3 +14,4 @@ trees/
 .pg_naive/
 kubejs/config/
 kubejs/data/
+server.properties
