@@ -12,3 +12,7 @@ trees/
 .mixin*/
 .lss/
 .pg_naive/
+kubejs/config/
+kubejs/data/
+server.properties
+ldlib2/
