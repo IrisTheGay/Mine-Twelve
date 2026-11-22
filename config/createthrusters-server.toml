@@ -97,8 +97,6 @@
 			ship_dock = true
 			#Allow advanced navigation table on this server. Existing content is not removed automatically.
 			advanced_navigation_table = true
-			#Allow diagnostic tablet on this server. Existing content is not removed automatically.
-			diagnostic_tablet = false
 			#Allow shipping manifest on this server. Existing content is not removed automatically.
 			shipping_manifest = true
 			#Allow alternator on this server. Existing content is not removed automatically.
@@ -127,6 +125,12 @@
 			physics_gantry_belt_wheel = true
 			#Allow physics staff anchor on this server. Existing content is not removed automatically.
 			physics_staff_anchor = true
+			#Allow world hologram projector on this server. Existing content is not removed automatically.
+			world_hologram_projector = true
+			#Allow celebration thruster on this server. Existing content is not removed automatically.
+			celebration_thruster = true
+			#Allow Smart Tablet on this server. Existing content is not removed automatically.
+			smart_tablet = true
 
 		[server.features.items]
 			#Allow blackstone alloy on this server. Existing content is not removed automatically.
@@ -218,10 +222,14 @@
 			#Allow Supporter Mannequins on this server. Existing content is not removed automatically.
 			player_mannequin = true
 
-	#Advanced Contraption Controller chat delivery
+	#Advanced Contraption Controller settings
 	[server.advanced_controller]
 		#Allow Send Chat Message nodes to broadcast nearby: the same sub-level, or a centered 3x3 chunk area in the main world. Private messages remain available when disabled. The legacy config key is retained so existing opt-outs keep working.
 		allowGlobalChatBroadcast = true
+		#Experimental diagnostic feature. Not intended to be enabled. Collects graph and node timings only while a profiler sidebar is open; measurements add overhead while active.
+		nodeGraphProfiler = false
+		#Allow Command nodes to execute and new Command nodes to be created. Disabled nodes remain saved but do not execute or appear in node libraries.
+		enableCommandNodes = true
 
 	#Advanced Contraption Controller and Ship Control Module tuning
 	[server.ship_control]
@@ -233,3 +241,8 @@
 		# Default: 2
 		# Range: 1 ~ 4
 		shippingScheduleWorkSpreadTicks = 2
+
+	#World Hologram Projector
+	[server.world_hologram_projector]
+		#Obfuscate Ores: replace ores below each column's surface with stone or deepslate before sending hologram data to clients.
+		obfuscateOres = true

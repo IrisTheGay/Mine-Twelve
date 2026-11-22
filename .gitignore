@@ -6,7 +6,6 @@ logs/
 libraries/
 crash*
 local/
-tacz/
 trees/
 .sable/
 .mixin*/
@@ -16,3 +15,5 @@ kubejs/config/
 kubejs/data/
 server.properties
 ldlib2/
+tacz_*
+tacz+*

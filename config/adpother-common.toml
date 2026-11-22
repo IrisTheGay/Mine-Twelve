@@ -12,8 +12,12 @@ environmentDegradationRate = 0.1
 filterReplacingExpGain = 0
 #Maximum number of gas entities present at the same time in a chunk
 # Default: 10
-# Range: 0 ~ 256
+# Range: 0 ~ 255
 maxGasEntitiesInChunk = 10
+#Whether pollution affects water
+waterPollution = true
+#Enables or disables pollution impacts on hostile mobs (buffs by default)
+hostileMobImpacts = true
 
 [GasExplosions]
 	#Enables/disables gas explosions caused by ignition sources
