@@ -209,6 +209,8 @@
 			music_disc_twisted_alive = true
 			#Allow music disc unplug the earth on this server. Existing content is not removed automatically.
 			music_disc_unplug_the_earth = true
+			#Allow thruster dye on this server. Existing content is not removed automatically.
+			thruster_dye = true
 
 		[server.features.entities]
 			#Allow launched claw on this server. Existing content is not removed automatically.
